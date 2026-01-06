@@ -13,20 +13,24 @@ body {
   margin: auto;
   padding: 20px;
 }
+
 h1 {
   font-size: 22px;
   margin-bottom: 20px;
 }
+
 .card {
   background: #1c1c1c;
   border-radius: 12px;
   padding: 15px;
   margin-bottom: 15px;
 }
+
 h2 {
   font-size: 16px;
   margin: 0 0 10px;
 }
+
 .address {
   word-break: break-all;
   background: #111;
@@ -34,27 +38,31 @@ h2 {
   border-radius: 8px;
   font-size: 14px;
 }
+
 button {
   margin-top: 10px;
   width: 100%;
-  padding: 10px;
+  padding: 12px;
   border: none;
   border-radius: 8px;
   background: #ff4d88;
   color: #fff;
   font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
   cursor: pointer;
 }
+
 .note {
   font-size: 12px;
   opacity: 0.7;
   margin-top: 6px;
 }
+
 .footer {
-  font-size: 12px;
-  opacity: 0.6;
-  margin-top: 20px;
-  line-height: 1.5;
+  font-size: 22px;
+  margin-top: 25px;
+  line-height: 1.4;
 }
 </style>
 </head>
@@ -67,7 +75,7 @@ button {
   <div class="address" id="usdt_trc20">
     TJPQBgTNkygEXoSWHZYAjGqTzrVFuj9Kw2
   </div>
-  <button onclick="copy('usdt_trc20')">Copy address</button>
+  <button onclick="copy('usdt_trc20')">COPY ADDRESS</button>
   <div class="note">TRC20 network only</div>
 </div>
 
@@ -76,7 +84,7 @@ button {
   <div class="address" id="usdt_bep20">
     0xb582e275e255be7e8361f32658b09a78faf56e67
   </div>
-  <button onclick="copy('usdt_bep20')">Copy address</button>
+  <button onclick="copy('usdt_bep20')">COPY ADDRESS</button>
   <div class="note">BEP20 (BSC) network only</div>
 </div>
 
@@ -85,7 +93,7 @@ button {
   <div class="address" id="usdt_ton">
     UQAqstqFT7M0vvypgP4S3H8FvIE-5ZNU26AAEQmwWYBuRIA0
   </div>
-  <button onclick="copy('usdt_ton')">Copy address</button>
+  <button onclick="copy('usdt_ton')">COPY ADDRESS</button>
   <div class="note">TON network only</div>
 </div>
 
@@ -94,7 +102,7 @@ button {
   <div class="address" id="btc">
     1Ms3kQPc9t3cfXfEre9ubKamdNSWiCuUk3
   </div>
-  <button onclick="copy('btc')">Copy address</button>
+  <button onclick="copy('btc')">COPY ADDRESS</button>
 </div>
 
 <div class="footer">
